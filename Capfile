@@ -10,6 +10,7 @@ require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
 
 install_plugin Capistrano::SCM::Git
+
 set :rbenv_type, :user
 set :rbenv_ruby, '2.4.0'
 
