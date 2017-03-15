@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.6'
+lock '3.8'
 
 set :application, 'decidim-vilanova'
 set :repo_url, 'https://github.com/MarsBased/decidim-vilanova.git'
